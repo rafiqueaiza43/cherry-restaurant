@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sheikhupura Spice House</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:#0a0a0a;color:#fff}
+.hero{height:100vh;background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1887') center/cover;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px}
+.hero h1{font-family:'Playfair Display',serif;font-size:3.5rem}
+.hero h1 span{color:#ffbf00}
+.btn{display:inline-block;padding:14px 30px;border-radius:50px;font-weight:600;margin:5px}
+.btn-gold{background:#ffbf00;color:#000}
+.btn-outline{border:2px solid #fff}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+.card{background:#151515;border-radius:20px;overflow:hidden;border:1px solid #222}
+.card img{width:100%;height:200px;object-fit:cover}
+.card-body{padding:20px}
+.card-body h3{display:flex;justify-content:space-between}
+.card-body h3 span{color:#ffbf00}
+.order{width:100%;background:#ffbf00;border:none;padding:10px;border-radius:10px;font-weight:700;cursor:pointer}
+section{padding:60px 20px;max-width:1100px;margin:auto}
+footer{background:#111;padding:30px;text-align:center;color:#888}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25d366;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;z-index:99}
+</style>
+</head>
+<body>
+<a class="whatsapp" href="https://wa.me/923000000000">💬</a>
+<div class="hero">
+<div>
+<p style="color:#ffbf00;letter-spacing:4px">WELCOME TO</p>
+<h1>Sheikhupura <br><span>Spice House</span></h1>
+<p>Asli Zaiqa, Desi Tarka, BBQ ka asli maza</p><br>
+<a href="https://wa.me/923000000000" class="btn btn-gold">Order on WhatsApp</a>
+<a href="#menu" class="btn btn-outline">View Menu</a>
+</div>
+</div>
+<section id="menu">
+<h2 style="text-align:center;font-family:'Playfair Display';font-size:2.5rem">Our Special Menu</h2>
+<p style="color:#ffbf00;text-align:center;letter-spacing:3px;margin-bottom:30px">HANDMADE WITH LOVE</p>
+<div class="menu-grid">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0">
+<div class="card-body"><h3>Chicken Tikka <span>Rs.650</span></h3><p>Charcoal grilled, smoky flavour</p><button class="order">Order Now</button></div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641">
+<div class="card-body"><h3>Mutton Karahi <span>Rs.1850</span></h3><p>Desi ghee karahi, 1kg</p><button class="order">Order Now</button></div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1603360946369-dc9bb6258143">
+<div class="card-body"><h3>BBQ Platter <span>Rs.2200</span></h3><p>Mix platter for 4 persons</p><button class="order">Order Now</button></div>
+</div>
+</div>
+</section>
+<footer><h3>Sheikhupura Spice House</h3><p>Main Road, Sheikhupura<br>© 2026 Cherry Web Studio</p></footer>
+</body>
+</html>
